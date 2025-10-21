@@ -7,13 +7,6 @@ interface Subtask {
   isCompleted: boolean;
 }
 
-interface Task {
-  title: string;
-  description: string;
-  status: string; // e.g. "Todo", "Doing", "Done"
-  subtasks: Subtask[];
-}
-
 type Props = {
   tasks: {
     title: string;

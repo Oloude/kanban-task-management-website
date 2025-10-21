@@ -3,7 +3,7 @@
 import Image from "next/image";
 import arrowDown from "../../public/icon-chevron-down.svg";
 import useKanbanStore from "@/Store/KanbanStore";
-import { ChangeEvent, useState } from "react";
+import { useState } from "react";
 import BoardColumn from "./BoardColumn";
 import CurrentStatusDropdown from "./CurrentStatusDropdown";
 

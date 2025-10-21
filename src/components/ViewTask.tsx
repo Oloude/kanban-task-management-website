@@ -26,7 +26,6 @@ function ViewTask() {
     .columns.map((column) => column.name);
   const [showDropdown, setShowDropdown] = useState(false);
 
-  const [status, setStatus] = useState(columns);
   const [currentStatus, setCurrentStatus] = useState(viewData.status);
   const [showStatusDropdown, setShowStatusDropdown] = useState(false);
 
@@ -56,7 +55,7 @@ function ViewTask() {
 
   useEffect(() => {
     handleStatusChange(currentStatus);
-  }, [currentStatus]);
+  }, [currentStatus, handleStatusChange]);
 
   return (
     <section
@@ -110,7 +109,7 @@ function ViewTask() {
             </button>
           </div>
           <CurrentStatusDropdown
-            columns={status}
+            columns={columns}
             show={showStatusDropdown}
             handleSelectedColumnChange={handleCurrentStatusChange}
           />

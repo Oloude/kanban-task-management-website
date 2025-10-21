@@ -81,7 +81,7 @@ function AddNewTaskModal() {
       });
       return;
     }
-    let subtask = tasks.map((task) => ({
+    const subtask = tasks.map((task) => ({
       title: task.task,
       isCompleted: false,
     }));

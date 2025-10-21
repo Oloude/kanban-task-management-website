@@ -21,11 +21,11 @@ function Subtask({ title, isCompleted, handleToggleCompleted }: Props) {
         id=""
         onChange={(e) => handleChecked(e.target.checked)}
         className="w-4 h-4 accent-mainPurple"
-        checked={isCompleted}
+        checked={isChecked}
       />
       <p
         className={`${
-          isCompleted
+          isChecked
             ? "text-black/50 line-through dark:text-white/50"
             : "text-black dark:text-white"
         } text-presetBM`}
