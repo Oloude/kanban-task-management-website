@@ -51,8 +51,7 @@ function EditBoardModal() {
       setErrorName(true);
       return;
     }
-    console.log(boardName);
-    let formatedColumns = columns
+    const formatedColumns = columns
       .filter((item) => item.name.trim() !== "")
       .filter(
         (item, idx, arr) =>
@@ -95,7 +94,7 @@ function EditBoardModal() {
             />
 
             {errorName && (
-              <span className="text-sm text-red w-24">Can't be empty</span>
+              <span className="text-sm text-red w-24">Can&apos;t be empty</span>
             )}
           </div>
         </label>

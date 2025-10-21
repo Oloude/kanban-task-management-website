@@ -46,7 +46,7 @@ function BoardColumn({
         )}
         {error && (
           <span className="text-red text-xs text-right w-30">
-            Can't be empty
+            Can&apos;t be empty
           </span>
         )}
       </div>

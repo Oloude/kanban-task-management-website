@@ -9,7 +9,7 @@ const brightColors = [
 ];
 
 function getRandomColor() {
-  let randomNumber = Math.floor(Math.random() * brightColors.length);
+  const randomNumber = Math.floor(Math.random() * brightColors.length);
 
   return brightColors[randomNumber];
 }
