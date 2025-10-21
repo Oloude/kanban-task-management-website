@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+@theme {
+  --breakpoint-lg: 90rem;
+
+  --color-black: #000112;
+  --color-veryDarkGrey: #20212c;
+  --color-darkGrey: #2b2c37;
+  --color-lineDark: #3e3f4e;
+  --color-mediumGrey: #828fa3;
+  --color-lineLight: #e4ebfa;
+  --color-lightGrey: #f4f7fd;
+  --color-mainPurple: #635fc7;
+  --color-purpleHover: #a8a4ff;
+  --color-red: #ea5555;
+  --color-redHover: #ff9898;
+
+  --font-plus: "Plus Jakarta Sans", sans-serif;
+
+  --text-presetXL: 24px;
+  --text-presetXL--line-height: 32px;
+  --text-presetXL--font-weight: 700;
+
+  --text-presetL: 18px;
+  --text-presetL--line-height: 23px;
+  --text-presetL--font-weight: 700;
+
+  --text-presetM: 15px;
+  --text-presetM--line-height: 19px;
+  --text-presetM--font-weight: 700;
+
+  --text-presetS: 12px;
+  --text-presetS--line-height: 15px;
+  --text-presetS--letter-spacing: 2.4px;
+  --text-presetS--font-weight: 700;
+
+  --text-presetBL: 13px;
+  --text-presetBL--line-height: 23px;
+  --text-presetBL--font-weight: 500;
+
+  --text-presetBM: 12px;
+  --text-presetBM--line-height: 15px;
+  --text-presetBM--font-weight: 700;
+
+  --shadow-navM: 0 10px 20px 0 rgba(54, 78, 126, 0.25);
+  --shadow-card: 0 4px 6px 0 rgba(54, 78, 126, 0.1);
+}
