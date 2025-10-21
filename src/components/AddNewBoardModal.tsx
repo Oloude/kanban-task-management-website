@@ -96,7 +96,9 @@ function AddNewBoardModal() {
               className="outline-none grow text-presetBL text-black dark:text-white"
             />
             {error && (
-              <span className="text-presetBM text-red">Can't be empty</span>
+              <span className="text-presetBM text-red">
+                Can&apos;t be empty
+              </span>
             )}
           </div>
         </label>

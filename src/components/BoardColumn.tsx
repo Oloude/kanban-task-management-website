@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import closeIcon from "../../public/icon-cross.svg";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 type Props = {
   item: string;

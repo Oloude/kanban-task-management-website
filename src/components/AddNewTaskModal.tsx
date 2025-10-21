@@ -75,7 +75,7 @@ function AddNewTaskModal() {
       setTitleError(true);
       return;
     } else if (tasks.some((task) => !task.task.trim())) {
-      let emptyTask = tasks.filter((item) => !item.task.trim())[0];
+      const emptyTask = tasks.filter((item) => !item.task.trim())[0];
       setTaskError({
         id: emptyTask.id,
       });
