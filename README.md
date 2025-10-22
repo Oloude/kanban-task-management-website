@@ -46,7 +46,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/oloude)
-- Live Site URL: [Nextlify](https://your-live-site-url.com)
+- Live Site URL: [Netlify](https://kanban-task-management-website.netlify.app)
 
 ## My process
 
